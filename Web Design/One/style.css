@@ -1,0 +1,204 @@
+/* common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol, li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* common css */
+
+/* nav css */
+nav{
+    width: 100;
+    background-color: rgb(10 129 10);
+    padding: 3px 0;
+}
+
+nav ul {
+    text-align: right;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    padding: 14px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+nav ul li a:hover{
+    background-color: #4fad10;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+
+/* login form css */
+
+.loginForm{
+    width: 390px;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    margin: 50px auto 100px auto;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    padding: 20px 10px;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+
+.loginForm h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loginForm h2::after{
+    content: '';
+    height: 2px;
+    background-color: orange;
+    display: block;
+    margin: 15px auto;
+    width: 180px;
+}
+
+.loginForm label{
+    font-size: 18px;
+}
+
+.loginForm input{
+    border: 2px solid lightgreen;
+    width: 100%;
+    margin-bottom: 14px;
+    outline: none;
+    margin-top: 5px;
+    padding: 8px 9px;
+}
+
+.loginForm button{
+    background-color: lightgreen;
+    border: 2px solid green;
+    cursor: pointer;
+    padding: 2px 20px;
+    font-size: 18px;
+}
+
+#orDesign{
+    text-align: center;
+    margin: 30px 0;
+}
+
+#orDesign::before{
+    content: '';
+    height: 2px;
+    width: 50px;
+    background-color: orange;
+    display: block;
+    margin-bottom: -10px;
+    margin-left: 110px;
+}
+
+#orDesign::after{
+    content: '';
+    height: 2px;
+    width: 50px;
+    background-color: orange;
+    display: block;
+    margin-top: -10px;
+    margin-left: 205px;
+}
+
+#exLink{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* table css */
+
+
+table{
+    width: 500px;
+    margin: 80px auto;
+    border-collapse: collapse;
+}
+
+table tr th{
+    border: 1px solid #000;
+    padding: 8px 10px;
+}
+
+table tr{
+    background-color: #add196;
+}
+
+table tr:hover{
+    background-color: #83917a;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+table tr:first-child{
+    background-color: lightgray;
+}
+
+table tr td{
+    border: 1px solid #000;
+    padding: 8px 10px;
+}
+
+/* info css */
+
+footer{
+    width: 100%;
+    background-color: rgba(19, 13, 13, 0.397);
+    overflow: hidden;
+    padding: 40px 60px;
+}
+
+.info{
+    width: 300px;
+    float: right;
+}
+
+.info p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info ul{
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.info ul li{
+    list-style-type: disc;
+    margin-top: 7px;
+}
