@@ -202,3 +202,22 @@ footer{
     list-style-type: disc;
     margin-top: 7px;
 }
+
+/* info css */
+
+.links{
+    width: 250px;
+}
+
+.links ul{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.links ul li {
+    margin-top: 8px;
+}
+
+.links ul li a:hover{
+    text-decoration: underline;
+}
